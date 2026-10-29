@@ -41,6 +41,9 @@
     f.setAttribute('scrolling', 'no'); f.setAttribute('frameborder', '0');
     f.setAttribute('allow', 'clipboard-write; encrypted-media; picture-in-picture; web-share');
     f.style.height = h + 'px';
+    // Drop the "Loading…" placeholder once Facebook answers; otherwise it pushes the feed out of the box.
+    var fallback = box.querySelector('.apg-fbfeed__fallback');
+    f.addEventListener('load', function () { if (fallback) fallback.remove(); });
     box.appendChild(f);
   });
 
