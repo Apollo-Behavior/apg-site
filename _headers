@@ -1,0 +1,7 @@
+# Cloudflare Pages response headers. https://developers.cloudflare.com/pages/configuration/headers/
+# X-Robots-Tag keeps the review preview out of search (covers images too, unlike the meta tag).
+# Remove it when this becomes the live autismga.org site.
+/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
