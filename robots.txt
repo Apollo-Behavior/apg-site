@@ -1,0 +1,19 @@
+# Crawlers and AI assistants are welcome. Never Disallow pages here: a blocked
+# page can't be read, so its noindex (used before launch) would be missed.
+User-agent: *
+Allow: /
+
+# AI search and assistant crawlers, named so the intent is explicit.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://autismga.org/sitemap.xml
