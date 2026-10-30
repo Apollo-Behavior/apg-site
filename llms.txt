@@ -7,7 +7,7 @@ APG is an association, not a therapy provider: it does not deliver ABA therapy o
 ## Pages
 
 - [Home](https://autismga.org/): APG's goals, what it does for members, and recent advocacy updates
-- [About](https://autismga.org/about): who APG is, where it represents providers, and the board of directors
+- [About](https://autismga.org/about): who APG is and where it represents providers
 - [Advocacy & updates](https://autismga.org/updates): advocacy wins, member alerts and policy updates
 - [FAQ](https://autismga.org/faq): common questions from providers and families
 - [Join](https://autismga.org/join): membership for ABA provider organizations and individual clinicians
