@@ -5,6 +5,8 @@ A static preview of the proposed Autism Providers of Georgia (autismga.org) rede
 - `index.html`: Home (the "How APG works" rail is clickable; all seven steps are in the HTML so search engines and AI tools can read them without JavaScript)
 - `about.html`, `updates.html` (filter buttons work), `join.html`, `faq.html`, `contact.html`
 
+**FAQ is hidden for now.** `faq.html` is still in the repo and reachable by direct URL, but it's unlinked from the nav, footer and 404 page and left out of `sitemap.xml` and `llms.txt`. If the site launches while it's hidden, keep the `noindex` meta tag on `faq.html`. To bring it back, restore the links and those two entries (see the commit "Hide FAQ page from navigation").
+
 Plain HTML/CSS/JS with no build step. Styles come from the APG design system (`css/bundle.css`, `css/apg-tokens.css`). Icons: Lucide (ISC license).
 
 Bracketed text like `[rate]` or `[APG to confirm: …]` marks content still to be supplied. Each one has a `<!-- TODO(launch) -->` comment; list them with `grep -rn "TODO(launch)" .`
